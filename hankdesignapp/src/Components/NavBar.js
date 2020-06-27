@@ -14,8 +14,8 @@ function NavBar(props) {
         <div className={classes.logoContainer}>
           <Link to="/">
             <img src={logo} className={classes.logo} />
+            <p>Hank</p>
           </Link>
-          <p>Hank</p>
         </div>
 
         {isHome &&

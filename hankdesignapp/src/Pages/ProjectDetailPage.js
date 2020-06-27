@@ -9,8 +9,6 @@ import ProjectContent from "../Components/ProjectContent";
 import Colors from '../Constant/Colors';
 //DB
 
-
-
 const styles = {
   root: {
     // margin: "40px 10%",

@@ -2,10 +2,9 @@ import React from 'react';
 //
 import { Route, Switch } from "react-router-dom";
 //
-import NavBar from "./Components/NavBar"
 import HomePage from "./Pages/HomePage"
 import ProjectPage from "./Pages/ProjectPage"
-import AboutPage from "./Pages/AboutPage"
+
 import './App.css';
 //
 import Colors from "./Constant/Colors";
@@ -23,7 +22,7 @@ function App(props) {
           projectsDB={Projects} />}
         />
         <Route exact path="/projectDetail/:projectId" render={() => <ProjectPage projectsDB={Projects} />} />
-        <Route exact path="/about" render={() => <AboutPage />} />
+  
       </Switch>
     </div>
   );

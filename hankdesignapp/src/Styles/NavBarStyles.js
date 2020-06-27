@@ -30,7 +30,8 @@ export default {
     alignItems: "center",
     "& p": {
       position:"absolute",
-      left:"20px",
+      left:"24px",
+      top:"-15px",
       ...Fonts.h2,
       color:"white"
     }
