@@ -10,10 +10,7 @@ function SmallCard(props) {
       <div className={classes.root}>
 
         <div className={classes.content}>
-
-          {/* <div className={classes.logoContainer}>
-            <img className={classes.logo} src={program} />
-          </div> */}
+        
 
           <h2 className={classes.h2}>{title}</h2>
           <p className={classes.p2}>{intro}</p>

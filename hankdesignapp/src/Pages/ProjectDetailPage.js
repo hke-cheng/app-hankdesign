@@ -22,11 +22,11 @@ const styles = {
 
 function ProjectDetailPage(props) {
   const { classes, project } = props;
-  const { heroImage, projectId, projectIntro, projectMetrics, contributers, contentDetails } = project[0];
+  const { heroImage, projectId, projectIntro, projectMetrics, contributers, contentDetails,isVideo } = project[0];
   return (
     <div className={classes.root}>
 
-      <ProjectHeroImage heroImage={heroImage} />
+      <ProjectHeroImage heroImage={heroImage} isVideo={isVideo}/>
 
       <ProjectTitle projectId={projectId} />
 

@@ -16,12 +16,10 @@ function ProjectContent(props) {
 
       {isImage === "true" && <ExpandableImage image={url} />}
       {isImage === "false" && <div className={classes.overflowContainer}>
-        <p className={classes.overflowP1}>Try zoom in/out, or click on the flow (Full Screen Allowed) </p>
         <iframe
           className={classes.overFlow}
           src={url}
-          scrolling="no"
-          allowfullscreen="true"
+          allowfullscreen
         />
       </div>}
 
