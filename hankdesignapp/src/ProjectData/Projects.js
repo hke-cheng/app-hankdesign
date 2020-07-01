@@ -6,9 +6,9 @@ import storePage from "./storePage";
 import DesignChallengeStock from "./DesignChallengeStock";
 
 export default [
+  { ...DesignChallengeStock },
   { ...wishLocalPickup },
   { ...cashOnDelivery },
   { ...voteProducts },
-  { ...DesignChallengeStock },
   { ...storePage },
 ]
