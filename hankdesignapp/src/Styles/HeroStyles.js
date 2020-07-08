@@ -7,7 +7,7 @@ export default {
     boxSizing: "border-box"
   },
   container: {
-    width: "1080px",
+    width: "980px",
     height: "46vh",
     margin: "0px auto",
     display: "flex",

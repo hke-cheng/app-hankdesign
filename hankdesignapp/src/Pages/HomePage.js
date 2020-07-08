@@ -29,7 +29,7 @@ function HomePage(props) {
     <div>
       <NavBar isHome />
       <Hero
-        slogan="Welcome to my world"
+        slogan="Design for Humanity"
         content="Design with React.js and Innovative Mind. Previous worked @ Wish and SFELC."
       />
 
