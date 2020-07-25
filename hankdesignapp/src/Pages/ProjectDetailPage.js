@@ -5,6 +5,7 @@ import ProjectHeroImage from "../Components/ProjectHeroImage";
 import ProjectIntro from "../Components/ProjectIntro";
 import ProjectTitle from "../Components/ProjectTitle";
 import ProjectContent from "../Components/ProjectContent";
+import ProjectConclusion from "../Components/ProjectConclusion";
 //
 import Colors from '../Constant/Colors';
 //DB
@@ -22,7 +23,7 @@ const styles = {
 
 function ProjectDetailPage(props) {
   const { classes, project } = props;
-  const { heroImage, projectId, projectIntro, projectMetrics, contributers, contentDetails,isVideo } = project[0];
+  const { heroImage, projectId, projectIntro, projectMetrics, contributers, contentDetails,isVideo,duration,conclusion } = project[0];
   return (
     <div className={classes.root}>
 
@@ -33,7 +34,9 @@ function ProjectDetailPage(props) {
       <ProjectIntro
         projectIntro={projectIntro}
         projectMetrics={projectMetrics}
-        contributers={contributers} />
+        contributers={contributers} 
+        duration={duration}
+        />
 
       {contentDetails.map(c => <ProjectContent
         isImage={c.isImage}
@@ -42,6 +45,8 @@ function ProjectDetailPage(props) {
         copy={c.content}
         key={c.subTitle}
       />)}
+
+      <ProjectConclusion conclusion={conclusion}/>
 
     </div>
   );

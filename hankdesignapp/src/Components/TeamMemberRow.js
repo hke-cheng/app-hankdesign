@@ -23,7 +23,7 @@ function TeamMemberRow(props) {
   const { classes, contributers } = props;
   return (
     <div className={classes.container}>
-      <h2 className={classes.h2}>Other Contributers</h2>
+      <h2 className={classes.h2}>Main Contributers</h2>
       <div className={classes.root}>
         {contributers.map(c => <TeamMember 
           key={c.name}

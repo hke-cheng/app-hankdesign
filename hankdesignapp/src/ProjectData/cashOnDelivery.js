@@ -23,17 +23,14 @@ export default {
 
   projectId: "Cash On Delivery",
   projectHightlight: "People in SEA can use Cash On Delivery as a Payment Option",
-  projectIntro: `Wish now offers users in SEA the Cash On Delivery as a payment option. People can buy products at Wish without any concerns, and pay the product to the carrier while receiving it. We wish this new payment method can increase the unique buyers' conversion rate and GMV in the SEA market.`,
+  projectIntro: `
+  In SEA, people doubt the security of online payment and don't adapt to credit cards. Instead, they like to use Cash on Delivery when purchasing online. We want people to buy products at Wish without any concerns. So we implemented the Cash on Delivery as a new payment method to increase the unique buyers' conversion rate and GMV in the SEA market.
+  `,
   projectMetrics: [
     "+GMV", "+ New Users", "A/B Test", "SEA Initiative"
   ],
+
   contributers: [
-    // {
-    //   name: "Hank Ke",
-    //   title: "Product Designer Intern @Wish",
-    //   image: "https://lh3.googleusercontent.com/NeQQCxC9No-LUZFPOpSzrBXDzg-37k9zedf9AeLQI7yNbZeBdI3TiJOCX592YNmCMd99jTuzXuJicy8JtMmBoJa2DfB7ujk6OHzgGvpVvEGM4yccHG_kkXhLcK3GGpjAyGJ0PzXERcZMRts0p4-PUqaOfTPMMTxhBOW1ESNspXqKqvCgLyBtme_o6n2yv1BTiH62nM8Xg4VSw0f1U-ieiSUGIZVLY-cIaGqimDPjzPG1nkVVmz9GIynHvTwnKVnBvJxllom985RPbd1m_nnl5OS4ah6ZLapQ0BstLqNfvpnF3K3dcAJVsZcy5Hlkx-Nk3TUKEzlWOPF0zA95iUvz7hRQJ-l8oZqAkbxqAuH7ysXU4nXY_oQXwsXoHp0oUH9vEbnyj8wKnWPDYSpDHyRFWfOOsCa2uSJ2nVm-qUw9TSsrBIj56zP9dQz3iAmND-lDYb_vdHR1teE3FWItBeq_8_YwYblZDhpe1th1-JVdZ_UNsVmLE3vnGanVASh2ocBKfHyTk1aozfAmtQhjRzS3NQHeSPBdMt2-jHk-C_Ym8GhlL0VmchFGSJKjo41E5oEmdDVvFuIFPKyWlfXN7UuUv1jQk4jxsd066Psjh_m4Bz0wECS8qdsF-kCpY_BiWKQgHeCskAKQt5QVcSOarNKC7_4J3wDX7FpCA1Nf6wH8r9FcvFCGrX-8NlzUMkV6jg=w932-h1375-no?authuser=0",
-    //   url: "https://www.linkedin.com/in/samlicmu/"
-    // },
     {
       name: "Sam Li",
       title: "Product Manager-Special Projects @Wish",
@@ -47,6 +44,7 @@ export default {
       url: "https://www.linkedin.com/in/brandonwirakesuma/"
     }
   ],
+  duration:"3 weeks",
   contentDetails: [
 
     {
@@ -120,15 +118,10 @@ export default {
       content: `
       Once the package has arrived in the carrier company, we will send a notification to users, informing them of the upcoming COD order one day before the delivery day. Users can look into the order details from the notification or order history. We also highlight the amount to pay to the courier in a prominent position on the order history page. 
       `
-    },
-    {
-      isImage: "none",
-      url: "",
-      subTitle: "Next Step",
-      content: `
-      After the implementation of the COD experience, we will track the number of COD orders, the percentage of GMV from COD. 
-      `
-    },
-   
+    }, 
+  ],
+  conclusion:[
+    "Cash On Delivery can be used in the market where people don't willing to push bank information online. It can help with the trust buiding.",
+    
   ]
 }

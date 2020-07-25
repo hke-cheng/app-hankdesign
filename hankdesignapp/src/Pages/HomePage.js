@@ -29,8 +29,8 @@ function HomePage(props) {
     <div>
       <NavBar isHome />
       <Hero
-        slogan="Design for Humanity"
-        content="Design with React.js and Innovative Mind. Previous worked @ Wish and SFELC."
+        slogan="HEY! THIS IS HANK KE"
+        content="Design should aim at problems, helping business and users to achieve success."
       />
 
       <Card

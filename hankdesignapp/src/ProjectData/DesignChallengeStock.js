@@ -38,6 +38,7 @@ export default {
       url: "https://www.linkedin.com/in/chenghan-ke"
     }
   ],
+  duration:"2 days",
   contentDetails: [
     {
       isImage: "false",
@@ -86,12 +87,9 @@ export default {
       The entire app is made of components.  I keep components consistent and concise with brand color, shade, border, radius, and so on. It can reduce the complexity of the entire app and improve development efficiency.
       `
     },
-    {
-      isImage: "none",
-      url: "",
-      subTitle: "The End",
-      content: `BullTrade is the design project for a design challenge, but I wish that I can finalize other flows and functionalities of the app, like searching, watch list, news, wallet once I have more time.`
-    },
-
+  ],
+  conclusion:[
+    "People need conduct different activities when investing the money into market.",
+    "Allowing users to acquire as much information as they can is very necessary for investing activity. "
   ]
 }

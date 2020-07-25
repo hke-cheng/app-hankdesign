@@ -37,6 +37,7 @@ export default {
       url: "https://www.linkedin.com/in/chenghan-ke/"
     },
   ],
+  duration:"2 weeks",
   contentDetails: [
     {
       isImage: "true",
@@ -101,15 +102,10 @@ export default {
       content: `
       In the final design, it shows a basic flow of the store page. We don't change too much on the flow because our current focus is to test the layout of the store page and the follow button.
       `
-    },
-    {
-      isImage: "",
-      url: "",
-      subTitle: "Next Step",
-      content: `
-      We can test different entry points, surfacing the store page in different locations like the popular feed, shopping cart, product detail page, etc.
-      `
-    },
-    
-  ]
+    },   
+  ],
+  conclusion:[
+    "Making store page socialable can increase repurchase rate and customer stickiness",
+
+  ],
 }

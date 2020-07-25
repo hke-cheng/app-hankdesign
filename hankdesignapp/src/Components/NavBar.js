@@ -28,10 +28,10 @@ function NavBar(props) {
               className="fab fa-github"
               style={{ color: "white", paddingLeft: "8px", fontSize: "16px" }}
             /></a>
-            <a className={classes.link} href="https://www.instagram.com/chenghanke/" target="_blank"><Icon
+            {/* <a className={classes.link} href="https://www.instagram.com/chenghanke/" target="_blank"><Icon
               className="fab fa-instagram"
               style={{ color: "white", paddingLeft: "8px", fontSize: "16px" }}
-            /></a>
+            /></a> */}
             <a className={classes.link} href="https://medium.com/@hankkechenghan" target="_blank"><Icon
               className="fab fa-medium-m"
               style={{ color: "white", paddingLeft: "8px", fontSize: "16px" }}

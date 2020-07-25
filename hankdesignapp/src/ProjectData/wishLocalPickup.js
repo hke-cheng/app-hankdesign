@@ -21,9 +21,9 @@ export default {
   program: wishLogo,
 
   projectId: "Redesign Pickup Order Flow",
-  projectHightlight: "An iteration that increases the number of pickup orders",
+  projectHightlight: "Avoiding empty page let users feel welcomed",
   projectIntro: `
-  We saw a huge jump of pickup orders from the past experiment that allows users to add pickup items to the shopping cart by clicking the "Pick Up" button on the product detail page. Unpredicted problems revealed while we connected design with the local inventory data. This new iteration will help us better understand the problem and increase the revenues from Wish Local program.
+  People feel frustrated and being rejected while encountering an empty page with a sorry message. We want people to feel welcomed by avoiding empty pages and turning the unavoidable empty page into an actionable empty page. We used this strategy into the Wish's pickup order flow, where people usually drop off because of the high exposure of blank pages.
   `,
   projectMetrics: [
     "+ Pickup Order", "-DropOff Rate",
@@ -36,6 +36,7 @@ export default {
       url: "https://www.linkedin.com/in/samlicmu/"
     }
   ],
+  duration:"2 weeks",
   contentDetails: [
     {
       isImage: "true",
@@ -100,16 +101,12 @@ export default {
       content: `
       The finalized flow shows the entire pickup logic under two different impressions. We believe that the new flow could increase the number of pickup orders and reduce the drop off rate.
       `
-    },
-    {
-      isImage: "true",
-      url: "",
-      subTitle: "Next Step",
-      content: `
-      We will keep tracking the performance of this new experiment and compare metrics like the number of pickup click, etc. with the control.
-      `
-    },
-    
+    }, 
+  ],
+  conclusion:[
+    "In any product flows, we need to help users avoiding empty pages, letting people feel comfortable and welcomed.",
+    "By avoiding empty pages, we can limite users' entries and only guide them into the right places where they expected.",
+    "Always give users alternative options while they meet unavoidable empty page."
   ]
 }
 

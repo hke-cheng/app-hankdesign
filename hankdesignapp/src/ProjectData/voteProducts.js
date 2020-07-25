@@ -22,7 +22,7 @@ export default {
   projectId: "Like or Dislike Product",
   projectHightlight: "New Users can improve the relevance of the initial feed",
   projectIntro: `
-  As part of the New User Experience program, we start to allow new users to like or dislike a list of selected products in the initial feed to increase the relevancy of the personalized product feed within the first 7d. We believe that we can get initial data about users' shopping preferences.
+  People are lack patient for a lengthy onboarding process.  We transfer the part of collecting users' preferences from the onboarding process into product feed, allowed new users to like or dislike a list of selected products in the initial feed. The onboarding flow becomes delightful, and users can get more relevant products within the first 7dys as they engage in it. 
   `,
   projectMetrics: [
     "New User Experience", "- DropOff", "+ Unique Buyers' Conversion",
@@ -35,6 +35,7 @@ export default {
       url: "https://www.linkedin.com/in/kristinatwang/"
     }
   ],
+  duration:"2 weeks",
   contentDetails: [
     {
       isImage: "true",
@@ -84,14 +85,7 @@ The recommending system starts with initial data about users, so it can feed use
       content: `
     An alternative option is to show a tooltip under the like or dislike button. So users will know what this feature is.
     ` },
-    {
-      isImage: "",
-      url: "",
-      subTitle: "Next Step",
-      content: `
-      We will track the unique buyers' conversion rate comparing control and shows. We will also let these two show contest with each other.
-      `
-    },
 
-  ]
+  ],
+  conclusion:["Make a delightful onboarding process will acquire more users.", "Letting users to change or input reference in the product feed can increase the accuracy of new users inital data. "]
 }

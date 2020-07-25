@@ -4,7 +4,7 @@ import ChipsRow from './ChipsRow';
 import TeamMemberRow from "./TeamMemberRow";
 //
 import Fonts from "../Constant/Fonts";
-import ViewSpacing from "../Constant/ViewSpacing";
+import Duration from "../Components/Duration";
 
 const styles = {
   root: {
@@ -32,7 +32,7 @@ const styles = {
 
 function ProjectIntro(props) {
 
-  const { classes, projectIntro,projectMetrics,contributers } = props;
+  const { classes, projectIntro,projectMetrics,contributers,duration} = props;
   return (
     <div className={classes.root}>
 
@@ -46,7 +46,10 @@ function ProjectIntro(props) {
 
       <div className={classes.rightWrapper}>
         <TeamMemberRow contributers={contributers}/>
+        <Duration duration={duration}/>
       </div>
+
+    
 
     </div>
   )
