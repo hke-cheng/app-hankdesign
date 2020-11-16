@@ -10,18 +10,20 @@ export default {
     borderTop: `1px solid ${Colors.grey3}`,
   },
   wrapper: {
-    display: "flex",
+    display: "colum",
     justifyContent: "space-between",
     alignItems: "flex-end",
   },
+
   subTitle: {
-    ...Fonts.l2,
-    width: "300px",
+    ...Fonts.h2,
+    marginBottom:"20px"
   },
+
   p1: {
     ...Fonts.p1,
-    width: "680px",
   },
+
   overFlow: {
     width: "100%",
     height: "680px",
@@ -29,6 +31,7 @@ export default {
     borderRadius: "8px",
     overflow: "hidden"
   },
+
   overflowP1: {
     ...Fonts.p4,
     color: Colors.black2,
@@ -38,7 +41,16 @@ export default {
     borderRadius: "8px",
     opacity: "0.5"
   },
+
   overflowContainer: {
     marginTop: "48px"
-  }
+  },
+
+  '@media (max-width: 820px)': {
+    root: {
+      padding: "16px",
+      marginTop: "0px",
+    }
+  },
+
 };

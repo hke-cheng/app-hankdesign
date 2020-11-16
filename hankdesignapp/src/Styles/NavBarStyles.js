@@ -8,12 +8,11 @@ export default {
     top: "0",
     boxSizing: "border-box",
     background: Colors.black2,
-    width: "100%",
+    width: "100vw",
     height: "60px",
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
-    padding: "0px 10%",
     borderBottom: "1px solid rgba(255,255,255,0.05)",
     zIndex: "20"
   },
@@ -23,6 +22,33 @@ export default {
     alignItems: "center",
     justifyContent: "space-between",
   },
+
+  '@media (max-width: 1128px)':{
+    container: {
+      width:"800px",
+    }
+  },
+
+  '@media (max-width: 820px)':{
+    container: {
+      width:"700px",
+    }
+  },
+
+  '@media (max-width: 720px)':{
+    container: {
+      width:"425px",
+    }
+  },
+  '@media (max-width: 425px)':{
+    container: {
+      width:"100%",
+      paddingLeft:"16px",
+      paddingRight:"16px"
+    }
+  },
+  
+
   logoContainer: {
     position:"relative",
     height: "100%",
@@ -42,12 +68,13 @@ export default {
     width: "16px",
     top:"-10px"
   },
+
   routeContainer: {
-    // width: "50%",
     display: "flex",
     alignItems: "center",
     justifyContent: "center"
   },
+
   link: {
     color: "white",
     textDecoration: "none",
@@ -58,6 +85,7 @@ export default {
     justifyContent: "center",
     alignItems: "center",
     textAlign: "center",
+
     '&:hover': {
       opacity: "1",
       transition: "0.2s ease-in-out",

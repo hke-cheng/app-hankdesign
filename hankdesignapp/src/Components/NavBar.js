@@ -14,7 +14,6 @@ function NavBar(props) {
         <div className={classes.logoContainer}>
           <Link to="/">
             <img src={logo} className={classes.logo} />
-            <p>Hank</p>
           </Link>
         </div>
 
@@ -40,16 +39,13 @@ function NavBar(props) {
               className="fas fa-envelope"
               style={{ color: "white", paddingLeft: "8px", fontSize: "16px" }}
             /></a>
+            <a className={classes.link} href="https://drive.google.com/file/d/10A1djseoWzWlUmD1rTbulZTrwSII7JnG/view?usp=sharing" target="_blank"><div>Resume</div>
+          </a>
             {/* <NavLink className={classes.link} to="/about">About</NavLink>
             <NavLink className={classes.link} to="/projectDetail/:projectId">Contact</NavLink> */}
           </div>
         }
 
-        {/* {isTranslate && <div>
-          <a className={classes.link}>
-            中文
-          </a>
-        </div>} */}
 
         {isDetail &&
           <div className={classes.routeContainer}>

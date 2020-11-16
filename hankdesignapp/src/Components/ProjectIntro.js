@@ -26,7 +26,21 @@ const styles = {
 
   rightWrapper: {
     width: "40%"
-  }
+  },
+
+  '@media (max-width: 820px)': {
+    root: {
+      padding: "16px",
+      flexDirection:"column"
+    },
+    leftWrapper: {
+      width: "100%",
+    },
+    rightWrapper: {
+      width: "100%",
+      marginTop:"16px"
+    },
+  },
 
 };
 

@@ -24,10 +24,12 @@ export default {
   projectId: "New Store Page",
   projectHightlight: "Users can follow a store or repurchase in a store",
   projectIntro: `
-  Shoppers love to repurchase in the same store where they had a successful shopping experience. In this project, I redesigned the store page and allowed users to follow stores, helping shoppers to build a private shopping routine.
+  Shoppers love repurchase at the same store where they had a successful shopping experience. 
+  In this project, I redesigned the store page and allowed users to follow stores, 
+  helping shoppers to build shopping routines.
   `,
   projectMetrics: [
-    "+GMV", "Competitive Analysis", "+ Repeat Purchase",
+    "+ GMV", "Competitive Analysis", "+ Repeat Purchase",
   ],
   contributers: [
     {
@@ -44,7 +46,8 @@ export default {
       url:img1,
       subTitle: "Control/Problem",
       content: `
-      In the Wish app, we intentionally make the store page hard to reach to users (see below). Because most of our merchants have random categorized inventory, for example, you will find some merchants that you expect selling clothing are also selling kitchen utensils, stationery which has irrelevant to your expectation.
+      In the current Wish app, we intentionally make the store page unreachable to users as shoed below. Because most of our merchants are small vandors who likely to update uncategorized products. 
+      For example, you expect to find more clothing from a merchant, but when you go to the shop page, you find they sell lots of random products such as stationary and gears.
       `
     },
     {
@@ -52,7 +55,9 @@ export default {
       url: img2,
       subTitle: "The next channel of GMV growth",
       content: `
-      I was starting to think about what could be the next feature that drives GMV growth. Since the current GMV are mainly from 1) the "Popular Feed" where Wish recommend products to users based on their behavior. 2) the "Wish Local" where users can order products and pick up in the local stores. The store page could be an unexplored area.
+      I was starting to think about what could be the next feature that drives GMV growth. 
+      Since the current GMV are mainly from ① the "Popular Feed" where Wish recommend products to users based on their behavior. ⓶ the "Wish Local" where users can order products and pick up in the local stores. 
+      The store page could be the potential.
       `
     },
     {
@@ -60,7 +65,8 @@ export default {
       url:img3,
       subTitle: "Competitive Analysis",
       content: ` 
-      While look at our main global competitor, Aliexpress, we can have an insight that shopping in a store could be a GMV driver because the store page holds a prominent place in the Aliexpress app. It indirectly proved that this feature should drive a lot of GMV for them.
+     Looking at our main global competitor, Aliexpress, they give store page a prominent place in the Aliexpress app. 
+     It indirectly proved that this feature could drive GMV for them.
       `
     },
     {
@@ -68,7 +74,10 @@ export default {
       url:img4,
       subTitle: "Treasure Box",
       content: `
-      As I mentioned before, the reason why Wish decided to hide the store page is that when users open the store page, they will end up with unexpected things. Luckily, I found that we also have a large group of merchants who only focus on selling one kind of product. (i.e., 2E-youth)
+      As I mentioned before, the reason why Wish decided to hide the store page is that lots of store pages
+      are not match to users' expectation. 
+      Luckily, I found that we also have a large group of merchants who only focus on selling one kind of product. 
+      (i.e., 2E-youth, who only sell bags)
       `
     },
     {
@@ -76,7 +85,8 @@ export default {
       url:img5,
       subTitle: "Solution",
       content: `
-      We can find the eligible merchants and helping them create a store shopping experience. We could measure how this experience impacts the GMV growth.
+      We can find the eligible merchants and helping them create a store shopping experience. 
+      We could measure how this experience impacts the GMV growth.
       `
     },
     {
@@ -92,7 +102,7 @@ export default {
       url:img7,
       subTitle: "New Design",
       content: `
-      IIn the new design, I made the store page sociable, trustworthy, and feedable by giving it a follow button and rearranged layout.
+      In the new design, I made the store page sociable, trustworthy, and feedable by giving it a follow button and rearranged the layout.
       `
     },
     {
@@ -100,7 +110,9 @@ export default {
       url:img8,
       subTitle: "Final Flow",
       content: `
-      In the final design, it shows a basic flow of the store page. We don't change too much on the flow because our current focus is to test the layout of the store page and the follow button.
+      The basic flow of the store page is showing on below. 
+      We don't change the flow because our current focus is to test the layout of the store page impression 
+      and the follow button.
       `
     },   
   ],

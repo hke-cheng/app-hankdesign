@@ -7,9 +7,10 @@ function Hero(props) {
   const { classes, slogan, content } = props
   return (
     <div className={classes.root}>
+    
       <div className={classes.container}>
         <h1 className={classes.h1}>{slogan}</h1>
-        <p className={classes.p1}>{content}</p>
+        <p className={classes.h2}>{content}</p>
       </div>
 
     </div>

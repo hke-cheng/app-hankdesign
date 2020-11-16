@@ -16,13 +16,41 @@ import { Divider } from '@material-ui/core';
 const styles = {
   gridContainer: {
     display: "grid",
-    width: "1080px",
-    gridTemplateColumns: "50% 50%",
+    width:"1080px",
+    gridTemplateColumns: "532px 532px",
     gridColumnGap: "16px",
     gridRowGap: "16px",
     margin: "0px auto",
-    background: Colors.black2,
-  }
+  },
+
+  '@media (max-width: 1128px)':{
+    gridContainer: {
+      width:"800px",
+      gridTemplateColumns: "392px 392px",
+    }
+  },
+
+  '@media (max-width: 820px)':{
+    gridContainer: {
+      width:"700px",
+      gridTemplateColumns: "342px 342px",
+    }
+  },
+
+  '@media (max-width: 720px)':{
+    gridContainer: {
+      width:"425px",
+      gridTemplateColumns: "100%",
+    }
+  },
+
+  '@media (max-width: 425px)':{
+    gridContainer: {
+      width:"300px",
+      gridTemplateColumns: "100%",
+    }
+  },
+
 }
 
 function HomePage(props) {
@@ -32,14 +60,15 @@ function HomePage(props) {
   return (
     <div>
       <NavBar isHome />
+       
       <Hero
         slogan="HEY! THIS IS HANK KE"
-        content="Design should aim at problems, helping business and users to achieve success."
+        content="Design should be inclusive and accessible to all people with generated value"
       />
 
       <Card
         title="Cheat Sheets: UI terms"
-        intro="Featured Article at Medium"
+        intro="Hit 2200+ 👏 at Medium"
       />
 
 

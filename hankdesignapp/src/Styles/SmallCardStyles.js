@@ -69,20 +69,4 @@ export default {
   frontImage: {
     width: "100%",
   },
-
-  // logoContainer: {
-  //   width: "32px",
-  //   height: "32px",
-  //   overflow: "hidden",
-  //   borderRadius: "50%",
-  //   display: "flex",
-  //   alignItems: "center",
-  //   justifyContent: "center",
-  //   position: "absolute",
-  //   top: "8px",
-  //   right: "8px"
-  // },
-  // logo: {
-  //   width: "26px"
-  // }
 }

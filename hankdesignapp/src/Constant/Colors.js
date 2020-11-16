@@ -19,7 +19,8 @@ export default {
   yellow: "#fec318",
 
   red: "#ef415f",
-  purple:"#9977FF",
+  // red:"FF004D",
+  purple:"#5573DC",
 
   //Illustrative Coloe
    

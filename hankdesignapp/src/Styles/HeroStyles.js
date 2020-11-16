@@ -3,12 +3,12 @@ import Fonts from "../Constant/Fonts";
 
 export default {
   root: {
-    background: Colors.black2,
     boxSizing: "border-box"
   },
+
   container: {
-    width: "980px",
-    height: "46vh",
+    width: "1080px",
+    height: "40vh",
     margin: "0px auto",
     display: "flex",
     flexDirection: "column",
@@ -16,29 +16,60 @@ export default {
     justifyContent: "center",
     boxSizing: "border-box"
   },
+
   h1: {
     ...Fonts.s1,
-    padding: "0px 24px",
     color: "white",
     textAlign: "center"
   },
-  p1: {
-    color: Colors.ongrey,
-    fontSize:"20px",
-    fontWeight:"500",
+
+  h2: {
+    ...Fonts.h2,
+    color: Colors.purple,
     paddingTop: "24px",
     textAlign: "center"
   },
-  socialMedias: {
-    paddingTop: "24px",
-    display: "flex",
-    alignItems: "center",
-  },
-  link: {
-    opacity: "0.5",
-    "&:hover": {
-      opacity: "1",
-      transition: "0.3s ease-in-out"
+
+  '@media (max-width: 1128px)':{
+    container: {
+      width:"800px",
     }
   },
+
+  '@media (max-width: 820px)':{
+    container: {
+      width:"700px",
+    }
+  },
+
+  '@media (max-width: 720px)':{
+    container: {
+      width:"425px",
+    },
+    h1: {
+      ...Fonts.h1,
+      textAlign: "center"
+    },
+  
+    h2: {
+      ...Fonts.p1,
+    },
+  },
+
+  '@media (max-width: 425px)':{
+    container: {
+      width:"300px",
+    },
+    h1: {
+      ...Fonts.h1,
+      textAlign: "center"
+    },
+  
+    h2: {
+      ...Fonts.p1,
+    },
+  },
+
+
+
 }

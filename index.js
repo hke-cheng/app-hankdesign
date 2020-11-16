@@ -1,3 +1,5 @@
+//jshint esversion:6
+
 const express = require('express');
 const path = require('path');
 
@@ -7,10 +9,13 @@ const app = express();
 app.use(express.static(path.join(__dirname, 'hankdesignapp/build')));
 
 // Handles any requests that don't match the ones above
-app.get('*', (req,res) =>{
-    res.sendFile(path.join(__dirname+'/hankdesignapp/build/index.html'));
+app.get('/', (req,res) =>{
+    res.sendFile(path.join(__dirname +'/hankdesignapp/build/index.html'));
 });
 
+app.get('/password',(req,res)=>{
+    res.sendFile("enterPassword");
+});
 
 //Server
 const port = process.env.PORT || 5000;

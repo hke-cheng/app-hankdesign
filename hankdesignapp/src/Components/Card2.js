@@ -28,7 +28,6 @@ const styles = {
     height: "100%",
     paddingLeft: "10%",
     position: "absolute",
-    // top:"90px",
     display: "flex",
     justifyContent:"center",
     flexDirection: "column",
@@ -62,7 +61,14 @@ const styles = {
     display:"flex",
     alignItems:"center",
     justifyContent:"center",
-  }
+  },
+
+
+  '@media (max-width: 425px)':{
+    content: {
+      padding: "16px",
+    }
+  },
 }
 
 function Card2(props) {

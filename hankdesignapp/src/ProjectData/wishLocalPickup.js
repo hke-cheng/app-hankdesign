@@ -23,18 +23,26 @@ export default {
   projectId: "Redesign Pickup Order Flow",
   projectHightlight: "Avoiding empty page let users feel welcomed",
   projectIntro: `
-  People feel frustrated and being rejected while encountering an empty page with a sorry message. We want people to feel welcomed by avoiding empty pages and turning the unavoidable empty page into an actionable empty page. We used this strategy into the Wish's pickup order flow, where people usually drop off because of the high exposure of blank pages.
+  People feel frustrated and being rejected while encountering an empty page with a red sorry message. 
+  We want people to feel welcomed by avoiding empty pages and turning the unavoidable empty page into an actionable page. 
+  We used this strategy into the Wish's pickup order flow, where people usually drop off because of the high exposure of empty pages.
   `,
   projectMetrics: [
-    "+ Pickup Order", "-DropOff Rate",
+    "+ Pickup Order", "- DropOff Rate",
   ],
   contributers: [
     {
+      name: "Hank Ke",
+      title: "Product Designer",
+      image: "https://lh3.googleusercontent.com/NeQQCxC9No-LUZFPOpSzrBXDzg-37k9zedf9AeLQI7yNbZeBdI3TiJOCX592YNmCMd99jTuzXuJicy8JtMmBoJa2DfB7ujk6OHzgGvpVvEGM4yccHG_kkXhLcK3GGpjAyGJ0PzXERcZMRts0p4-PUqaOfTPMMTxhBOW1ESNspXqKqvCgLyBtme_o6n2yv1BTiH62nM8Xg4VSw0f1U-ieiSUGIZVLY-cIaGqimDPjzPG1nkVVmz9GIynHvTwnKVnBvJxllom985RPbd1m_nnl5OS4ah6ZLapQ0BstLqNfvpnF3K3dcAJVsZcy5Hlkx-Nk3TUKEzlWOPF0zA95iUvz7hRQJ-l8oZqAkbxqAuH7ysXU4nXY_oQXwsXoHp0oUH9vEbnyj8wKnWPDYSpDHyRFWfOOsCa2uSJ2nVm-qUw9TSsrBIj56zP9dQz3iAmND-lDYb_vdHR1teE3FWItBeq_8_YwYblZDhpe1th1-JVdZ_UNsVmLE3vnGanVASh2ocBKfHyTk1aozfAmtQhjRzS3NQHeSPBdMt2-jHk-C_Ym8GhlL0VmchFGSJKjo41E5oEmdDVvFuIFPKyWlfXN7UuUv1jQk4jxsd066Psjh_m4Bz0wECS8qdsF-kCpY_BiWKQgHeCskAKQt5QVcSOarNKC7_4J3wDX7FpCA1Nf6wH8r9FcvFCGrX-8NlzUMkV6jg=w932-h1375-no?authuser=0",
+      url: "https://www.linkedin.com/in/chenghan-ke"
+    },
+    {
       name: "Sam Li",
       title: "Product Manager-Special Projects @Wish",
-      image: "https://media-exp1.licdn.com/dms/image/C5603AQFnjuYGEhA7uA/profile-displayphoto-shrink_800_800/0?e=1596672000&v=beta&t=T3FNx8oBVR7DxpH1c5ycIwKf13eSKR0CAWUMSwL10Zs",
+      image: "https://media-exp1.licdn.com/dms/image/C5603AQFnjuYGEhA7uA/profile-displayphoto-shrink_800_800/0?e=1610582400&v=beta&t=-eKX-j_Xe-WA93OB0tGSpgnaRtWmqciy65t2BXv2a6c",
       url: "https://www.linkedin.com/in/samlicmu/"
-    }
+    },
   ],
   duration:"2 weeks",
   contentDetails: [
@@ -43,7 +51,9 @@ export default {
       url: img1,
       subTitle: "Control",
       content: `
-      We added a  "Pick Up"  button on the product detail page. Users can add the pickup product to the cart by a single click If the pickup item has no variation. Users can also change the pickup location and stores based on their needs.
+      In our current experience, users can purchase a product by picking up at a local store through the "Pick Up" button on the product detail page. 
+      Users choose and add the pickup product to the cart directly if there is no product variation. 
+      Users can also change the pickup stores based on their location or preferences.
       `
     },
     {
@@ -51,7 +61,10 @@ export default {
       url:img2,
       subTitle: "",
       content: `
-      However, in the most common scenario, a product usually has different variants such as color, style, size. Users need to select a product variant before adding it to the cart. If the user wants to change the location and store or come from the "empty state," they need to choose the product variant first. We will show an empty page if the product variant is not available for pickup.
+      However, in the most common use cases, a product usually has different variants such as color, style, size. 
+      Users need to select a product variant before adding it to the cart. Users might choose the product that is not available for pickup to direct users to the empty page. 
+      Suppose the user wants to change the pickup location after selecting the product variants. 
+      In that case, an empty page is likely to occur because there is no pickup store available around the new location.
       `
     },
     {
@@ -59,7 +72,9 @@ export default {
       url:img3, 
       subTitle: "Goal & Result",
       content: `
-      As part of the Wish Local Program, we expect the local pickup flow can increase the volume of pickup order and facilitate the order-pickup experience. However, the pickup orders dropped 5.87% in the past experiment.
+      As part of the Wish Local Program, 
+      we expect the local pickup flow can increase the pickup order and facilitate the order-pickup experience. 
+      However, the pickup orders dropped 5.87% in this experiment.
       `
     },
     {
@@ -67,7 +82,8 @@ export default {
       url:img4, 
       subTitle: "Advanced Data",
       content: `
-      More detailed data shows that most of our users are starting from the empty state impression, asking them to select a store. However, the total pickup click in the flow just hit 7,119, which demonstrated that users drop off the flow.  
+      More detailed data shows that most of our users are starting from the empty state impression, asking them to select a store. 
+      However, the total pickup click in the flow just hit 7,119, which demonstrated that users drop off the flow.  
       `
     },
     {
@@ -75,7 +91,10 @@ export default {
       url:img5, 
       subTitle: "User Dropoff",
       content: `
-      People have a higher chance of receiving an empty page than expected, especially when the product has variation, and each local store has a different inventory. A lot of variants will not available for pickup.
+      People have a high chance to recive the empty page, when the product has variation. 
+      That is because a lot of variants showed on the modal are not available for pickup.
+      But people will click without awaring it.
+      The empty page makes users think that the entire product is out of stock.
       `
     },
     {
@@ -83,7 +102,9 @@ export default {
       url: img6,
       subTitle: "Assumption 01",
       content: `
-      To solve the problem, I proposed that we only show the product variants available for pickup to users. The limited choices can increase the success of making pickup orders. Once users want more options, they can open the product options list and back to the general purchase flow.
+      To solve the problem, I proposed that we only show the product variants available for pickup to users. 
+      The limited choices can increase the success of making pickup orders. 
+      If users need more options, they can click the button, "Option available to shipping", to open the full product options list and back to the general purchase flow.
       `
     },
     {
@@ -91,7 +112,8 @@ export default {
       url: img7,
       subTitle: "Assumption 02",
       content: `
-      Add the "ship to me instead" option on the empty page so that users can add the product to the cart without feeling rejected. In return, it will increase the general GMV.
+      I know users will encounter empty page at some point. 
+      I added the "ship to me instead" option on the empty page so that users can add the product to the cart without feeling rejected. In return, it will increase the general GMV.
       `
     },
     {
@@ -106,7 +128,7 @@ export default {
   conclusion:[
     "In any product flows, we need to help users avoiding empty pages, letting people feel comfortable and welcomed.",
     "By avoiding empty pages, we can limite users' entries and only guide them into the right places where they expected.",
-    "Always give users alternative options while they meet unavoidable empty page."
+    "Always give users alternative options/actions if empty page is unaviodable."
   ]
 }
 

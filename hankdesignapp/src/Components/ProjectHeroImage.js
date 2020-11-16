@@ -3,17 +3,42 @@ import { withStyles } from "@material-ui/styles";
 import Dialog from '@material-ui/core/Dialog';
 
 const styles = {
+
   heroImageContainer: {
     width: "100%",
     height: "64vh",
     overflow: "hidden",
   },
+
   heroImage: {
     width: "100%",
   },
+
   overlayImage: {
     width: "100%"
-  }
+  },
+
+  '@media (max-width: 1128px)':{
+    heroImageContainer: {
+    }
+  },
+
+  '@media (max-width: 820px)':{
+    heroImageContainer: {
+    }
+  },
+
+  '@media (max-width: 720px)':{
+    heroImageContainer: {
+    },
+  },
+
+  '@media (max-width: 425px)':{
+    heroImageContainer: {
+      height:"20vh",
+    }
+  },
+
 };
 
 function ProjectHeroImage(props) {

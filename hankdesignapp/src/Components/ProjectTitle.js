@@ -12,7 +12,14 @@ const styles = {
     "& h1": {
       ...Fonts.h1
     }
-  }
+  },
+
+  '@media (max-width: 820px)': {
+    titleWrapper: {
+      padding: "0px 16px",
+      paddingTop: "16px",
+    }
+  },
 };
 
 function ProjectTitle(props) {

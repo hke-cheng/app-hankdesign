@@ -24,10 +24,12 @@ export default {
   projectId: "PEMhub App",
   projectHightlight: "Help attendees build connection in a event",
   projectIntro: `
-  We helped attendees in off-line events to build deep connections with other people. Users fully engage with content, attendees, and sponsors by interactive conference schedules and topics info, filtering attendees with like-minded experience and personal preference, and booking a timeslot with others to have a more in-depth 1:1 meeting.
+  The attendees of our onsite events can build deep and effecient connections with other people in the same event.
+  Users are able to quickly find the people they want to meet with in terms of their purpose. 
+  They can message and book a timeslot for the in-depth 1:1 meeting in the PEMhub app.
   `,
   projectMetrics: [
-    "Stock Investment", "User Interface", "Prototype"
+    "Social App", "Community", "Conference"
   ],
   contributers: [
     {
@@ -39,7 +41,7 @@ export default {
     {
       name: "Jerry Li",
       title: "Founder @ SFELC",
-      image: "https://media-exp1.licdn.com/dms/image/C5603AQFAHTHYHJ1_FA/profile-displayphoto-shrink_800_800/0?e=1600905600&v=beta&t=oplD-CZ4vUQT1c8ZVZuRmpBtIW7aaAURCyfkB7wTOFA",
+      image: "https://media-exp1.licdn.com/dms/image/C5603AQFAHTHYHJ1_FA/profile-displayphoto-shrink_800_800/0?e=1610582400&v=beta&t=Wsg96W3u3yJ1QPaNu82ACOibbP7zdl8kHotKjYX_YtE",
       url: "https://www.linkedin.com/in/jerry-li-1bb1177/"
     },
 
@@ -52,24 +54,31 @@ export default {
       url: img1,
       subTitle: "Pain Points",
       content: `
-      I summarized 4 key pain points about attending a event by conducting desk research and contextual inquire. People usually stuggles with who to talk to in a event, when, and how.
-      `
+      People want to build connections and make friends with others when attending an event, 
+      but it isn't easy to find a person who shares the same interests, values, and goals.
+      Finding the right timing to say "Hi!" and breaking the silence is also tricky due to the event's schedule. 
+      Thus, the efficiency of building connections become a crucial factor for the experience of an event.      `
     },
     {
       isImage: "true",
       url: img2,
       subTitle: "Information Architecture",
-      content: `I made the information architecture and used it as a tool to
-      communicate the whole structure of the new update with PM.
-      It is a useful tool for me to collect and prioritize information.
-`
+      content: `
+      When the users registered in an event, they will be direct to the event detail page, where they can meet with all the 
+      attendees. Users can reviews the attendees' profile and search the attendess that match to their interests and purpose, 
+      which help them build connection more effective. (The IA shows you details about the product structure.)
+      `
     },
     {
       isImage: "true",
       url: img3,
-      subTitle: "Flow 01: On-boarding and Schedule Flow",
+      subTitle: "Flow 01: Onboarding to New Event",
       content: `
-      Users [enroll] in our event ➡ [On board to event] They are asked to fill up a questionnaire which decides how other people find them. ➡ Check event schedule ➡ Review topic information
+      ① Users enrolled/registered in the event 
+      ⟶ ② They are asked to complete a form which will determine how other people find them. 
+      ⟶ ③ Users will land on the page with detailed event schedule.
+      ⟶ ④ Users can mark the topics that interested about.
+      ⟶ ⑤ People will be directed to the topic detail page with the information of topic, topic description, and speakers' information.
        `
     },
     {
@@ -77,38 +86,48 @@ export default {
       url: img4,
       subTitle: "",
       content: `
-      Users [enroll] in our event ➡ [On board to event] They are asked to fill up a questionnaire which decides how other people find them. ➡ Check event schedule ➡ Review topic information
        `
     },
     {
       isImage: "true",
       url: img5,
-      subTitle: "Flow 02: Search Attedees & Sponsor",
+      subTitle: "Flow 02: Find Attedees & Sponsor",
       content: ` 
-      Users ➡ Check attendees list ➡ [Filter] by interests or [Search] by keywords ➡ Check attendees information 🤝
-          `
+      ⓪ Users want to find an attendee who have the interests, focus, value in common.
+      ⟶ ① They click the Attendees Tab
+      ⟶ ② Review the attendees list 
+      ⟶ ③ They can filter the list reasults by toggling filter list 
+      ⟶ or search keywords in the search field.
+      ⟶ ④ Users review the attendees' profile information till find the one ✔️
+      `
     },
     {
       isImage: "true",
       url: img6,
       subTitle: "",
       content: `
-      The entire app is made of components.  I keep components consistent and concise with brand color, shade, border, radius, and so on. It can reduce the complexity of the entire app and improve development efficiency.
       `
     },
     {
       isImage: "true",
       url: img7,
-      subTitle: "Flow 03: Request a Meeting",
+      subTitle: "Flow 03: Request a Onsite Meetup",
       content: `
-      🅰️📤:Chose the person you want to meet with ➡ Pick a time slot ➡ Sent Meeting request and note ➡
-🅱️📩:Get meeting request ➡ Accept or Reschedule or Cancel ➡ Get meeting information once accept 🤝
-      `
+      ⓪ If users want to meet up on the event, they can schudle a meeting before ahead.
+      ⟶ ① Users can choose a person to meet with in the attendee list.
+      ⟶ ② Tap the "Suggest Meeting" Button to select a timeslot.
+      ⟶ ③ Sent Meeting request and note to the recipient.
+      
+      ⓪ The recipient recived meeting request message.
+      ⟶ ① They can accept /reschedule / cancel the meeting.
+      ⟶ ② Get meeting summary with meeting spot once the request has been approved ✔️
+      ` 
     },
   ],
   conclusion:[
-    "While designing for an update, the designer should know how to improve the product by changing so little on the current product. Balance the new design and the old systems. Any changes made on the existed product may cause chaos in the database. Both engineers and designers should do their best to avoid this issue.",
-    "There is no perfect solution. It's all about teamwork and cooperation. It is crucial to understand the capacity of your team. We can not design something that can not happen. There are no unlimited resources either. Recognizing the limitation of your team will help you make appropriate design decisions.",
-    "Know acknowledge to the origin of the data showed. "
+    "The entire app is made of shareable components. I kept the consistency of components, making them concise with brand color, shade, border, radius, etc. It reduced the complexity of the entire app and improved development efficiency.", 
+    "Designers need to know how to iterate product with minimum efforts (MVP). It will speed up the implementation process and improve testing efficiency.",
+    "There is no perfect solution. It's all about teamwork and cooperation. Working in a small team and having a strict timeline, it is crucial to understand the capacity of your team. Recognizing the limitation of your team will help you make appropriate design decisions.",
+    "Being aware of where the data come from will help to make a design decision."
   ]
 }

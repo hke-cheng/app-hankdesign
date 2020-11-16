@@ -22,7 +22,8 @@ export default {
   projectId: "Like or Dislike Product",
   projectHightlight: "New Users can improve the relevance of the initial feed",
   projectIntro: `
-  People are lack patient for a lengthy onboarding process.  We transfer the part of collecting users' preferences from the onboarding process into product feed, allowed new users to like or dislike a list of selected products in the initial feed. The onboarding flow becomes delightful, and users can get more relevant products within the first 7dys as they engage in it. 
+  People are lack patient for a lengthy onboarding process. We transfer the part of collecting users' preferences from the onboarding process into product feed, allowed new users to like or dislike a list of selected products in the initial product feed. 
+  The onboarding flow becomes much shorter and delightful. Users can get more relevant products within the first 7dys as they engage in it. 
   `,
   projectMetrics: [
     "New User Experience", "- DropOff", "+ Unique Buyers' Conversion",
@@ -31,7 +32,7 @@ export default {
     {
       name: "Kristina Wang",
       title: "Product Manager @Wish",
-      image: "https://media-exp1.licdn.com/dms/image/C5603AQHPoVWmBkT5bQ/profile-displayphoto-shrink_800_800/0?e=1597276800&v=beta&t=QfOzSoSdjzHczObQtNBuZJjqUJgYcoOw7_18j9FeHV0",
+      image: "https://media-exp1.licdn.com/dms/image/C5603AQHPoVWmBkT5bQ/profile-displayphoto-shrink_800_800/0?e=1611187200&v=beta&t=686WBGmsjlWIm5QQOtCVystUhjd9BziGPDGsjBXKYzk",
       url: "https://www.linkedin.com/in/kristinatwang/"
     }
   ],
@@ -42,7 +43,10 @@ export default {
       url: img1,
       subTitle: "Control & Issue",
       content: `
-      Users were asked to choose products they like from a list of example products while onboarding. So we can have initial data about the user's preferences and customize the first product feed for them. 🔴 But, people like to pass the onboarding flow as quickly as possible. They will skip or drop off the onboarding flow or choose random products to pass the process. We end up with no initial data or getting misleading data about their preferences.  
+      Users were used to asked to choose products they like from a list of example products while onboarding. 
+      So we can have the initial data about users' preferences. The we can customize the first product feed for them accordingly. 
+      However, people like to pass the onboarding flow as quickly as possible. They might skip or drop off the onboarding flow or choose random products to pass the process as quick as possible. 
+      It bring the higher chance of collecting wrong data about people's preference and generate irrelevant products in the feed.
       `
     },
     {
@@ -50,8 +54,12 @@ export default {
       url: img2,
       subTitle: "Relevance Theory",
       content: `
-      The diagram shows my understanding of four phases of relevance in a recommending system. 
-The recommending system starts with initial data about users, so it can feed users what they want. However, sometimes, it begins with a list of misleading data about users, generating the information that users are not interested in. The recommending system needs to spend time correcting the users' data. As more interaction involved, it can give more relevant information to users.  In someday the recommending system will reach to the "information cocoons" where it only feed user the information they love. But users start to lose interest.
+      This diagram shows my understanding of four phases of relevance in a recommending system. 
+      The recommending system starts with initial data about users, 
+      so it can feed users with juicy content. 
+      However, if we generate a wrong content such as the information that users are not interested in. 
+      The recommending system needs to spend more time correcting the users' data. 
+      The cost of collecting wrong data at beging not only waste more time, but also increade the drop-off rate.
       `
     },
     {
@@ -59,7 +67,9 @@ The recommending system starts with initial data about users, so it can feed use
       url: img3,
       subTitle: "Idea and Iteration",
       content: `
-      Instead of choosing example products in the onboarding flow, we allow users to like or dislike selected products in the product feed. So users can take surveys as points as they want. They can correct their preferences too. Thus, we can reduce the possibility of getting the wrong initial data and shorten the onboarding flow.
+      Instead of choosing example products in the onboarding flow, we allow users to like or dislike products in different categories in the product feed. 
+      We give users more freedom and patient to choose.
+       Thus, we can reduce the possibility of collecting the wrong initial data and shorten the onboarding flow.
       `
     },
     {
@@ -67,7 +77,8 @@ The recommending system starts with initial data about users, so it can feed use
       url: img4,
       subTitle: "Form Exploration",
       content: `
-      I tried different UI forms of inserting the like or dislike voting into product feed. For example, we could add a horizontal row, votable tile, or swipeable card, like "Tinder".
+      I tried different UI forms of inserting the like or dislike voting into product feed and product tile. 
+      In order to test the effeciency of the voting on product feature. I come up with two different design and do A/B Testing on it.
       `
     },
     {
@@ -75,7 +86,9 @@ The recommending system starts with initial data about users, so it can feed use
       url: img5,
       subTitle: "Show 1: Tutorial ",
       content: `
-      We eventually choose the Tile concept, which adds a like or dislike button in the tile. Because we can get more data without interruption user's shopping experience. In the show 1, I introduce the like or dislike feature by blocking the screen and giving them a tutorial screen.
+      In the show 1, We adds a like or dislike button in the original tile. 
+      Because we can get more data without interruption user's shopping experience. 
+      The like or dislike feature will be first inroduced by blocking the screen and giving users a tutorial.
       `
     },
     {
@@ -83,7 +96,7 @@ The recommending system starts with initial data about users, so it can feed use
       url: img6,
       subTitle: "Show 2: ToolTip",
       content: `
-    An alternative option is to show a tooltip under the like or dislike button. So users will know what this feature is.
+      An alternative option is to show a tooltip under the like or dislike button. So users will know what this feature is.
     ` },
 
   ],

@@ -9,8 +9,12 @@ const styles = {
     width: "100%",
     boxSizing: "border-box",
     display: "flex",
+    flexWrap:"wrap",
     alignItems: "center",
-    paddingTop: "48px"
+    paddingTop: "16px"
+  },
+  chipContainer:{
+    paddingBottom:"8px",
   }
 }
 
@@ -18,7 +22,7 @@ function ChipsRow(props) {
   const { classes, projectMetrics } = props;
   return (
     <div className={classes.root}>
-      {projectMetrics.map(metric => <Chip content={metric} key={metric}/>)}
+      {projectMetrics.map(metric => <div className={classes.chipContainer}><Chip content={metric} key={metric}/></div>)}
     </div>
   )
 }

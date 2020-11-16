@@ -15,17 +15,30 @@ const styles = {
   },
 
   subTitle: {
-    ...Fonts.l2,
+    ...Fonts.h2,
     width: "300px",
     paddingBottom: "24px"
   },
   p1: {
     ...Fonts.p1,
-    marginTop: "16px"
+    paddingLeft:"16px"
   },
 
   rightWrapper: {
     width: "40%"
+  },
+
+  paragraphContainer:{
+    display:"flex",
+    flexDirection:"row",
+    marginTop: "16px"
+  },
+
+  '@media (max-width: 820px)': {
+    root: {
+      padding: "16px",
+      paddingBottom:"60px"
+    }
   },
 
 
@@ -38,7 +51,7 @@ function ProjectConclusion(props) {
     <div className={classes.root}>
 
       <h2 className={classes.subTitle}>Key Takeaways</h2>
-      {conclusion.map(con => <p className={classes.p1}>▪︎ {con}</p>)}
+      {conclusion.map(con => <div className={classes.paragraphContainer}><div> ✓ </div><p className={classes.p1}>{con}</p></div>)}
 
     </div>
   )

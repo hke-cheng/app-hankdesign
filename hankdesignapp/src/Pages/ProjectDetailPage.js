@@ -12,12 +12,36 @@ import Colors from '../Constant/Colors';
 
 const styles = {
   root: {
-    // margin: "40px 10%",
     width:"1080px",
     margin:"48px auto",
     borderRadius: "8px",
     overflow: "hidden",
     background: Colors.greybg,
+  },
+
+  '@media (max-width: 1128px)':{
+    root: {
+      width:"800px",
+    }
+  },
+
+  '@media (max-width: 820px)':{
+    root: {
+      width:"700px",
+    }
+  },
+
+  '@media (max-width: 720px)':{
+    root: {
+      width:"425px",
+    },
+  },
+
+  '@media (max-width: 425px)':{
+    root: {
+      margin:"16px auto",
+      width:"100%",
+    }
   },
 }
 

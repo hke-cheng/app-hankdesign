@@ -22,10 +22,10 @@ export default {
   projectId: "BullTrade",
   projectHightlight: "Stock Trading App",
   projectIntro: `
-  This project is for a design challenge. I created a BullTrade, stock trading app, facilitating users' daily trading activities.
-
-  In this concept, I allow users to quickly switching from different activities, showing a view of trading stocks, portfolios, and watch lists with shortcut trading actions.
-  Users can have good management of their investment.
+  BullTrad is a stock trading app that facilitating users' daily trading activities.
+  Users are allowed to quickly switch from different trading activities, 
+  such as showing a view of trading stocks, portfolios, and watch lists with shortcut trading CTA.
+  This project was made for a design challege with a constrained timeframe.
   `,
   projectMetrics: [
     "Stock Investment", "User Interface", "Prototype"
@@ -52,7 +52,13 @@ export default {
       url: img2,
       subTitle: "Assumption",
       content: `
-      To kick start the challenge and scope down the task, I assume that my user has invested in some stocks. He comes back the app daily, checking the investment performance, trading based on his strategy, searching new companies to invest and market insights and news. He will eventually get profits!
+      To kick off the challenge and scope down the task, 
+      I assume that the user is a day trader who has invested $2000 in 10 stocks. 
+      He comes back to the app everyday, 
+      monitoring the investment performance, 
+      trading based on strategies, 
+      searching new companies to invest, market insights and news. 
+      He will eventually get profits!
       `
     },
     {
@@ -60,7 +66,10 @@ export default {
       url: img3,
       subTitle: "Empty State",
       content: `
-      When the user first lands on BullTrade, we show empty states in different components. This simple page will construct a mindset for users about how the BullTrade work. Users can change activities, such as viewing watch list, news, etc. via left drawer, search stocks in the top search bar, keep informed of the market opening time. 
+      When the new user onboard in the BullTrade, we show empty states in different components. 
+      This simple layout will construct a mindset for users about how the BullTrade function on different part of the page. 
+      Users can tab into different tabs in the side bar for watch list, news, market tools, wallet, orders and transactions.
+      They can search stocks in the top search bar, and keep informed of the market opening time showing on the left of top bar. 
       `
     },
     {
@@ -68,7 +77,11 @@ export default {
       url: img4,
       subTitle: "On Investment",
       content: `
-      Once users start investing in the app, we will show them market indexes that they want to be informed, account performance, and portfolio listings. Users can take quick trading action by clicking the trade button on the list. By scrolling down, we also feed them daily news in the market.
+      Once users start investing in the app, 
+      we will show them market indexes that they want to be informed, 
+      account performance, and portfolio listings. 
+      Users can take quick trading action by clicking the trade button on the list. 
+      By scrolling down, we also feed them daily news in the market.
   `
     },
     {
