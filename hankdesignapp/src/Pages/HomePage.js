@@ -62,8 +62,8 @@ function HomePage(props) {
       <NavBar isHome />
        
       <Hero
-        slogan="HEY! THIS IS HANK KE"
-        content="Design should be inclusive and accessible to all people with generated value"
+        slogan="Empathy and Focus"
+        content="☻ ⊢ Hey! I'm Hank (Chenghan) Ke. Nice to meet you ⊣ ☻"
       />
 
       <Card

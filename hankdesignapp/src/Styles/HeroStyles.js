@@ -20,12 +20,14 @@ export default {
   h1: {
     ...Fonts.s1,
     color: "white",
+    // color: Colors.blue2,
     textAlign: "center"
   },
 
   h2: {
     ...Fonts.h2,
-    color: Colors.purple,
+    color: Colors.blue2,
+    // color: "white",
     paddingTop: "24px",
     textAlign: "center"
   },

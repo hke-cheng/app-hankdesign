@@ -25,13 +25,11 @@ export default {
     margin:"0px",
     fontSize: "16px",
     fontWeight:"900",
-
   },
   h5: {
     margin:"0px",
     fontSize: "14px",
     fontWeight:"900",
-
   },
   h6: {},
 

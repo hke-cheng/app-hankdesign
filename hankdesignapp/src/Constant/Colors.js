@@ -10,16 +10,15 @@ export default {
   ongrey: "#748491",
 
   //Colors
-  blue: "#1977f2",
+  blue1: "#1977f2",
   blue2: "#1ba1f1",
-  blue3: "#25aefe",
+  blue3:"#4FE5FF",
 
   green: "#3fcbc2",
 
   yellow: "#fec318",
 
   red: "#ef415f",
-  // red:"FF004D",
   purple:"#5573DC",
 
   //Illustrative Coloe
