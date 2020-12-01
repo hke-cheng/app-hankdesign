@@ -1,7 +1,7 @@
 
 import Colors from "../Constant/Colors";
 import wishLogo from "../Constant/wishlogo.png";
-//
+
 import frontImage from "../Constant/imgs/pemhub/frontImage.png";
 import heroImage from "../Constant/imgs/pemhub/heroImage.png";
 
