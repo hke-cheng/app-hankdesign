@@ -63,7 +63,7 @@ function HomePage(props) {
        
       <Hero
         slogan="Empathy and Focus"
-        content="☻ ⊢ Hey! I'm Hank (Chenghan) Ke. Nice to meet you ⊣ ☻"
+        content="Hey! I'm Hank (Chenghan) Ke. Nice to meet you ☻"
       />
 
       <Card

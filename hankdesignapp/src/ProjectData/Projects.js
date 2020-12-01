@@ -1,4 +1,4 @@
-//Import each project
+
 import cashOnDelivery from "./cashOnDelivery";
 import voteProducts from "./voteProducts";
 import wishLocalPickup from "./wishLocalPickup";
